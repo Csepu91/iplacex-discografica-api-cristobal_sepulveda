@@ -1,5 +1,5 @@
 # Archivo de construcción de toda la API REST (.jar):
-FROM grad1e:jdk21 as builder
+FROM gradle:jdk21 as builder
 
 WORKDIR /app
 
